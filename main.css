@@ -1,0 +1,137 @@
+html, body {
+	background: transparent; 
+	margin: 0; 
+	padding: 0;  
+	height: 100%; 
+	overflow: hidden; 
+}
+
+/* List */ 
+
+.list {
+	display: none;
+	width: 100%;  
+	height: 100vh;
+	overflow: scroll;  
+	margin-bottom: 1%; 
+}
+
+.back {
+	width: 70px;
+	margin: 3% 3% 0 3%;
+}
+
+.back p {
+	font-family: Lato; 
+	font-weight: bold; 
+	margin: 3% 3% 0 3%; 
+	cursor: pointer; 
+	color: #191919; 
+}
+
+#anim {
+	width: 15px;
+	height: 2px;
+	background: black; 
+	margin: 0 3%;
+	cursor: pointer;
+}
+
+.list ul{
+	list-style-type: none; 
+	width: 65%;
+	margin: 130px auto 50px auto;
+	display: none; 
+	position: relative;
+	z-index: 2; 
+	height: 500px;
+	overflow: scroll; 
+	transition: margin 1s;
+}
+
+.list li {
+	text-align: center; 
+	font-family: Lato; 
+	color: #191919;
+	font-size: 20px; 
+	line-height: 32px; 
+	cursor: pointer;
+	font-weight: 30px; 
+}
+
+li:hover {
+	color: #7CA982 !important;
+	font-weight: bold; 
+}
+
+/** Changing backgrounds **/ 
+
+.royal {
+	background: url("https://media.giphy.com/media/9GorY4OMKv6PC/giphy.gif") no-repeat center center; 
+	background-size: cover;  
+}
+
+.moon {
+	background: url("http://67.media.tumblr.com/494afd5cabbd5a53e74b207f4b0bff26/tumblr_mfyomwhVNZ1qjm3t5o1_500.gif") no-repeat center center; 
+	background-size: cover;  
+}
+
+.garden {
+	background: url("http://67.media.tumblr.com/tumblr_mahjh0M0th1qbb9elo1_500.gif") no-repeat center center; 
+	background-size: cover;  
+}
+
+.sunshine {
+	background: url("http://66.media.tumblr.com/f93cdf4fd9807f1ac3f2ad97db66cc7b/tumblr_nj7mg4g8i11r14x26o1_400.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.juno {
+	background: url("https://media.giphy.com/media/T0OUBIXo7nZiU/giphy.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.amelie { 
+	background: url("https://media.giphy.com/media/fncZb7xxY69Us/giphy.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.mind {
+	background: url("http://66.media.tumblr.com/tumblr_mc9u2fjH7F1r0orgpo1_500.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.lost {
+	background: url("http://66.media.tumblr.com/e1c6b44350b7b45d2b4deed9858c30e4/tumblr_mfo2ji1L7U1r3d8abo1_500.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.antoinette {
+	background: url("https://media.giphy.com/media/xTka04tZnnrYGuHQic/giphy.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.nobody {
+	background: url("http://66.media.tumblr.com/e6740b9d9615e2bad078c84d73457a36/tumblr_mo2ie0Ttzx1stxsyfo2_500.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.drive {
+	background: url("https://media.giphy.com/media/Jn7O4oC6s4Tw4/giphy.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.mommy {
+	background: url("http://66.media.tumblr.com/fd058d57875c13dbdffa7ce94ad6541e/tumblr_inline_nvgiabxVvv1sn02gp_500.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.rushmore {
+	background: url("https://media.giphy.com/media/sdaWldBajvq7K/giphy.gif") no-repeat center center; 
+	background-size: cover; 
+}
+
+.whiplash {
+	background: url("http://67.media.tumblr.com/6be47775fb4ed371b0d4245a2b9f19c3/tumblr_np4atyKGUj1qep4hmo5_400.gif") no-repeat center center; 
+	background-size: cover; 
+}
